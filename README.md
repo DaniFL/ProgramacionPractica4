@@ -1,5 +1,9 @@
 # Práctica 4: Cálculo de la distancia de edición
 
+## Autor y fecha
+`Daniel Fernández López`
+`08/05/2022`
+
 ![Copyright.png](img.png)
 
 Copyright [2022] (Daniel Fernández López copyright) Licensed under the Apache License, Version 2.0 (the "License"); 
@@ -16,8 +20,34 @@ language governing permissions and limitations under the License.
 
 Implemente en Java la distancia de edición entre dos palabras según lo expuesto
 las diapositivas de Dan Jurafsky: 
-```
-https://web.stanford.edu/class/cs124/lec/med.pdf.
-```
+
+`https://web.stanford.edu/class/cs124/lec/med.pdf.`
+
 No es necesario que almacene la traza para transformar una palabra en
 otra. 
+
+## Comandos 
+
+- Ejecución:
+
+`$ make ejecutar`
+
+- Compilación:
+
+`$ make compilar`
+`$ mvn compile`
+`$ mvn package`
+
+- Creación jar: 
+
+`$ make jar`
+`$ mvn jar:jar`
+
+- Creación javadoc:
+
+`$ make javadoc`
+`$ mvn javadoc:javadoc`
+
+## Diagrama de clases
+
+![Copyright.png](Diagrama.png)
